@@ -36,14 +36,14 @@ header{
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 30px 18%;
+    padding: 0px 18%;
     transition: .3s;
+    border: 1px solid black;
 }
 
 .logo img{
     max-width: 100%;
-    width: 130px;
-    height: auto;
+    width: 180px;
 }
 
 .navlist ul{
@@ -57,7 +57,7 @@ header{
 .navlist a{
     font-size: var(--m-font);
     color: var(--text-color);
-    padding: 10px 27px;
+    padding: 0px 27px;
     font-weight: 600;
 }
 
@@ -95,6 +95,7 @@ header{
     font-size: var(--p-font);
     font-weight: 500;
     transition: ease .50s;
+    margin-right: -10%;
 }
 
 .top-btn:hover{
