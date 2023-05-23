@@ -38,7 +38,6 @@ header{
     background: transparent;
     padding: 0px 18%;
     transition: .3s;
-    border: 1px solid black;
 }
 
 .logo img{
@@ -103,4 +102,93 @@ header{
     background: var(--main-color);
     border: 2px solid #009FFF;
     color: var(--bg-color);
+}
+
+/*Main*/
+section{
+    padding: 100px 18%;
+}
+
+.home{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background: url(img/background.jpg);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    grid-gap: 4rem;
+}
+
+.home-text h1{
+    margin: 10px 0 25px;
+    font-size: var(--big-font);
+    line-height: 1;
+    font-weight: 500;
+}
+
+.home-text h5{
+    margin-bottom: 23px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+span{
+    color: #009FFF;
+}
+
+.home-text h3{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-text p{
+    font-size: var(--p-font);
+    color: var(--secound-color);
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.social a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(128, 103, 240, 1);
+    font-size: 17px;
+    color: var(--bg-color);
+    margin-right: 22px;
+    margin-bottom: 30px;
+}
+
+.social a:hover{
+    transform: scale(1.1);
+    background: var(--main-color);
+    transition: .5s;
+}
+
+.btn{
+    display: inline-block;
+    color: var(--bg-color);
+    background: var(--main-color);
+    font-size: var(--p-font);
+    padding: 10px 40px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transition: ease .40s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.home-img img{
+    max-width: 100%;
+    width: 540px;
+    height: auto;
 }
