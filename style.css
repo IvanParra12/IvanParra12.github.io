@@ -15,7 +15,7 @@
     --main-color: linear-gradient(to right, #ec2F4B, #009FFF);
     --big-font: 5rem;
     --h2-font: 3rem;
-    --p-font: 1.1rem;
+    --p-font: 1rem;
     --m-font: 1.2rem;
 }
 
@@ -109,7 +109,7 @@ header{
 
 /*Main*/
 section{
-    padding: 100px 18%;
+    padding: 70px 18%;
 }
 /*Home*/
 .home{
@@ -155,6 +155,10 @@ span{
     margin-bottom: 20px;
 }
 
+.home-img{
+    margin-top: -80px;
+}
+
 .home-img img{
     max-width: 100%;
     width: 540px;
@@ -185,10 +189,10 @@ span{
 .btn{
     display: inline-block;
     color: var(--bg-color);
-    background: var(--main-color);
+    background: #009FFF;
     font-size: var(--p-font);
     padding: 10px 40px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 24px;
     border-radius: 30px;
     transition: ease .40s;
@@ -215,11 +219,29 @@ span{
     cursor: pointer;
 }
 
-.sub-img{
+.sub-img i{
     max-width: 100%;
     width: 60px;
     height: auto;
     margin-bottom: 20px;
+}
+
+.fa-comments{
+    font-size: 5em;
+    margin-right: 15%;
+    color: #baebcd;
+}
+
+.fa-sliders{
+    font-size: 5em;
+    margin-right: 10%;
+    color: #d9d1fa;
+}
+
+.fa-star{
+    font-size: 5em;
+    margin-right: 10%;
+    color: #faedce;
 }
 
 .sub-box h3{
@@ -229,7 +251,7 @@ span{
 }
 
 .sub-box p{
-    font-size: var(--p-font);
+    font-size: 0.8rem;
     color: var(--secound-color);
     line-height: 29px;
 }
@@ -247,6 +269,10 @@ span{
 #about{
     display: flex;
     gap: 5rem;
+}
+
+.about-img{
+    margin-top: -10px;
 }
 
 .about-img img{
@@ -273,7 +299,8 @@ span{
     font-size: var(--p-font);
     color: var(--secound-color);
     line-height: 28px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
+    text-align: justify;
 }
 
 /*Portfolio*/
