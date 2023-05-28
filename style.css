@@ -481,3 +481,14 @@ span{
     border-radius: 30px;
     cursor: pointers;
 }
+
+/*Footer*/
+footer{
+    text-align: center;
+    padding: 40px;
+}
+
+footer p{
+    font-size: var(--p-font);
+    letter-spacing: 1px;
+}
