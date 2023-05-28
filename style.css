@@ -303,7 +303,7 @@ span{
     text-align: justify;
 }
 
-/*Portfolio*/
+/*Languages*/
 .heading{
     text-align: center;
 }
@@ -327,10 +327,10 @@ span{
     line-height: 28px;
 }
 /*Portfolio-content*/
-.portfolio-content{
+.language-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 3rem;
     align-items: center;
     margin-top: 5rem;
     text-align: center;
@@ -341,12 +341,29 @@ span{
     position: relative;
 }
 
-.col img{
+.fa-html5, .fa-css3-alt, .fa-square-js, .fa-java,
+.fa-database{
+    font-size: 10em;
     max-width: 100%;
     width: 550px;
-    height: auto;
-    object-fit: cover;
+    height: 100%;
     border-radius: 12px;
+}
+
+.fa-html5{
+    color: #E65100;
+}
+.fa-css3-alt{
+    color: #009FFF;
+}
+.fa-square-js{
+    color: #FFD600;
+}
+.fa-java{
+    color: #F44336;
+}
+.fa-database{
+    color: #D1C4E9;
 }
 
 .layer{
@@ -378,27 +395,10 @@ span{
 }
 
 .layer:hover h3{
-    bottom: 52%;
+    bottom: 40%;
     opacity: 1;
 }
 
-.layer h5{
-    position: absolute;
-    width: 100%;
-    font-size: 17px;
-    font-weight: bold;
-    color: var(--bg-color);
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: all .40s;
-}
-
-.layer:hover h5{
-    bottom: 45%;
-    opacity: 1;
-}
 /*Service-content*/
 .service-content{
     display: grid;
