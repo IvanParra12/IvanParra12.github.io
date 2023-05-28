@@ -402,7 +402,7 @@ span{
 /*Service-content*/
 .service-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-template-columns: repeat(3, minmax(300px, auto));
     gap: 2rem;
     align-items: center;
     margin-top: 5rem;
@@ -415,6 +415,7 @@ span{
     padding: 45px;
     transition: ease .45s;
     cursor: pointer;
+    height: 400px;
 }
 
 .row h3{
@@ -441,22 +442,29 @@ span{
     rotateY(1.23deg) scale3d(1.05, 1.05, 1.05);
 }
 
-.s img{
-    height: 65px;
-    width: 65px;
+.s i{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    height: auto;
+    width: 70px;
     background: #009FFF;
     padding: 15px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
-.s.s-two img{
+.row:nth-child(3){
+    
+}
+
+.s.s-two i{
     background: #baebcd;
 }
-.s.s-three img{
+.s.s-three i{
     background: #d9d1fa;
 }
-.s.s-four img{
+.s.s-four i{
     background: #faedce;
 }
 /*Contact*/
